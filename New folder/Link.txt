@@ -1,0 +1,5 @@
+The project is about Prediction Price of the flight based on previous data. 
+
+Here is the link of the drive folder which contains the explanation video :
+
+https://drive.google.com/drive/folders/1k2wFhWQXX5B_a58PIKYV2RKKvyQuvHjF?usp=drive_link

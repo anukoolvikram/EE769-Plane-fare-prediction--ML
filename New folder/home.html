@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight Fare Prediction</title>
+</head>
+<body>
+    <h1>Flight Fare Prediction</h1>
+    <form action="/predict" method="post">
+        <label for="source">Source:</label>
+        <select id="source" name="source">
+            <option value="Delhi">Delhi</option>
+            <option value="Kolkata">Kolkata</option>
+            <!-- Add more options for other sources -->
+        </select>
+        <br>
+        <label for="destination">Destination:</label>
+        <select id="destination" name="destination">
+            <option value="Cochin">Cochin</option>
+            <option value="Banglore">Banglore</option>
+            <!-- Add more options for other destinations -->
+        </select>
+        <br>
+        <label for="date_of_journey">Date of Journey:</label>
+        <input type="date" id="date_of_journey" name="date_of_journey">
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
